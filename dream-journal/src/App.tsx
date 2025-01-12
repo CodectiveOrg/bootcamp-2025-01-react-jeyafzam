@@ -1,7 +1,15 @@
 import "./App.css";
+import { useState } from "react";
 
 function App() {
-  return <h1>Hello World!</h1>;
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <div>count: {count}</div>
+      <button onClick={() => setCount(count - 1)}>-</button>
+      <button onClick={() => setCount(count + 1)}>+ </button>
+    </div>
+  );
 }
 
 export default App;
