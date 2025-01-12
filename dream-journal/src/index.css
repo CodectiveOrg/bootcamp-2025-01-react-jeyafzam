@@ -1,8 +1,32 @@
+:root {
+  --color-surface: hsl(0, 0%, 97%);
+  --color-text: hsl(0, 0%, 15%);
+  --color-primary: hsl(243, 100%, 69%);
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Kanit", system-ui;
+}
+
+input,
+label,
+select,
+textarea,
+button,
+fieldset,
+legend,
+datalist,
+output,
+option,
+optgroup {
+  font: inherit;
 }
