@@ -4,9 +4,11 @@ import Button from "../../components/Button/Button.tsx";
 
 import SolarCloudyMoonLinear from "../../icons/SolarCloudyMoonLinear.tsx";
 
+import styles from "./Toolbar..module.css"
+
 const Toolbar = () => {
   return (
-    <div className="toolbar">
+    <div className={styles.Toolbar}>
       <SearchBox />
       <ItemTypeFilter />
       <Button className="theme">

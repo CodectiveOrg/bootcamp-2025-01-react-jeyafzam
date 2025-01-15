@@ -1,9 +1,11 @@
 import MingcuteSearchLine from "../../icons/MingcuteSearchLine";
 
+import styles from "./SearchBox.module.css";
+
 const SearchBox = () => {
   return (
-    <div className="search-box">
-      <input type="text" />
+    <div className={styles["search-box"]}>
+      <input type="text" placeholder="Search note..." />
       <MingcuteSearchLine className="icon" />
     </div>
   );

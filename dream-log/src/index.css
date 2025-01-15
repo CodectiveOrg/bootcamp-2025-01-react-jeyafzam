@@ -1,11 +1,8 @@
 :root {
   --color-surface: hsl(0, 0%, 97%);
   --color-text: hsl(0, 0%, 15%);
-  --color-primary: linear-gradient(
-    90deg,
-    hsl(340, 100%, 70%),
-    hsl(5, 100%, 65%)
-  );
+  --color-primary:hsl(332, 80%, 52%);
+  --color-primary-outline:hsl(332, 80%, 52%, 40%);
 }
 
 *,
