@@ -1,8 +1,15 @@
+import MingcuteAddLine from "../../icons/MingcuteAddLine";
+
 import Button from "../Button/Button";
+
+
+
 const Footer = () =>{
     return(
-        <footer>
-        <Button className="add">+</Button>
+        <footer >
+        <Button sameWidthHeight shape="circle">
+          <MingcuteAddLine/>
+        </Button>
       </footer>
     )
 }

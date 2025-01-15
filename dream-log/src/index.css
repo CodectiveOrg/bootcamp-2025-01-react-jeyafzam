@@ -1,8 +1,9 @@
 :root {
   --color-surface: hsl(0, 0%, 97%);
   --color-text: hsl(0, 0%, 15%);
+   --color-primary-text: hsl(0, 0%, 97%);
   --color-primary:hsl(332, 80%, 52%);
-  --color-primary-outline:hsl(332, 80%, 52%, 40%);
+  --color-primary-light:hsla(320, 81%, 59%, 0.918);
 }
 
 *,

@@ -11,7 +11,7 @@ const Toolbar = () => {
     <div className={styles.Toolbar}>
       <SearchBox />
       <ItemTypeFilter />
-      <Button className="theme">
+      <Button sameWidthHeight className={styles.theme}>
         <SolarCloudyMoonLinear />
       </Button>
     </div>
