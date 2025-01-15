@@ -34,3 +34,9 @@ option,
 optgroup {
   font: inherit;
 }
+
+body{
+  inline-size: min(45rem, 100% - 2rem);
+  
+  margin-inline: auto;
+}
