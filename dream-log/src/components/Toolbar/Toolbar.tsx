@@ -1,7 +1,8 @@
-import SearchBox from "../../components/SearchBox/SearchBox.tsx";
+import Input from "../Input/Input.tsx";
 import ItemTypeFilter from "../../components/ItemTypeFilter/ItemTypeFilter.tsx";
 import Button from "../../components/Button/Button.tsx";
 
+import MingcuteSearchLine from "../../icons/MingcuteSearchLine";
 import SolarCloudyMoonLinear from "../../icons/SolarCloudyMoonLinear.tsx";
 
 import styles from "./Toolbar..module.css"
@@ -9,7 +10,7 @@ import styles from "./Toolbar..module.css"
 const Toolbar = () => {
   return (
     <div className={styles.Toolbar}>
-      <SearchBox />
+      <Input  placeholder="Search Note..." suffixIcon={<MingcuteSearchLine/>}/>
       <ItemTypeFilter />
       <Button sameWidthHeight className={styles.theme}>
         <SolarCloudyMoonLinear />
