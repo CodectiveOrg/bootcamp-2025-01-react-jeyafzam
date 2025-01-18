@@ -1,0 +1,7 @@
+.footer{
+    .button{
+        position: fixed;
+        inset-block-end: 2rem;
+        inset-inline-end: max(1rem,(100% - 45rem)/2);
+    }
+}
