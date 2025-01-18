@@ -1,66 +1,66 @@
 .button {
-    display: inline grid;
-    place-content: center;
-  
-    border: none;
-  
-    font-weight: 500;
-  
-    text-transform: uppercase;
-  
-    cursor: pointer;
-  
-    &.solid {
-      background-color: var(--color-primary);
-      color: var(--color-primary-text);
-    }
-  
-    &.outlined {
-      background-color: var(--color-primary-text);
-      color: var(--color-primary);
-  
-      border: 1px solid var(--color-primary);
-    }
-  
-    &.rectangle {
-      border-radius: 0.5rem;
-    }
-  
-    &.circle {
-      border-radius: 999rem;
-    }
-  
-    &.small {
-      block-size: 2.5rem;
-  
-      font-size: 1.125rem;
-    }
-  
-    &.medium {
-      block-size: 2.5rem;
-  
-      font-size: 1.375rem;
-    }
-  
-    &.large {
-      block-size: 3.25rem;
-  
-      font-size: 1.5rem;
-    }
-  
-    &:not(.same-width-height) {
-      padding-inline: 1.125rem;
-    }
-  
-    &.same-width-height {
-      inline-size: auto;
-      aspect-ratio: 1 / 1;
-    }
-  
-    &:hover,
-    &:focus {
-      box-shadow: 0 0 3px hsl(332, 80%, 52%);
-  
-      outline: none;
-    }
+  display: inline grid;
+  place-content: center;
+
+  border: none;
+
+  font-weight: 500;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  &.solid {
+    background-color: var(--color-primary);
+    color: var(--color-primary-text);
   }
+
+  &.outlined {
+    background-color: var(--color-primary-text);
+    color: var(--color-primary);
+
+    border: 1px solid var(--color-primary);
+  }
+
+  &.rectangle {
+    border-radius: 0.5rem;
+  }
+
+  &.circle {
+    border-radius: 999rem;
+  }
+
+  &.small {
+    block-size: 2.5rem;
+
+    font-size: 1.125rem;
+  }
+
+  &.medium {
+    block-size: 2.5rem;
+
+    font-size: 1.375rem;
+  }
+
+  &.large {
+    block-size: 3.25rem;
+
+    font-size: 1.5rem;
+  }
+
+  &:not(.same-width-height) {
+    padding-inline: 1.125rem;
+  }
+
+  &.same-width-height {
+    inline-size: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 3px var(--color-shadow);
+
+    outline: none;
+  }
+}

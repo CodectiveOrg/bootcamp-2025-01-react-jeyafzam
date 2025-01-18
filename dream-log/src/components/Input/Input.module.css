@@ -1,4 +1,4 @@
-.search-box {
+.input {
   overflow: hidden;
 
   display: flex;
@@ -32,6 +32,7 @@
 
     cursor: pointer;
   }
+  
   &:focus-within {
     outline: 2px solid var(--color-primary-light);
   }

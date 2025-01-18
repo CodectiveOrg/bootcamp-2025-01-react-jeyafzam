@@ -1,10 +1,10 @@
-.Toolbar{
-    margin-block: 1rem;
+.Toolbar {
+  margin-block: 1rem;
 
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 
-    :first-child{
-        flex: 1;
-    }
+  :first-child {
+    flex: 1;
+  }
 }

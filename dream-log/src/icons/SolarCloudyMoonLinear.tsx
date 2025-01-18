@@ -7,7 +7,7 @@ export function SolarCloudyMoonLinear(props: SVGProps<SVGSVGElement>) {
       width="1em"
       height="1em"
       viewBox="0 0 24 24"
-      style={{ transform: "scaleX(-1)" }} 
+      style={{ transform: "scaleX(-1)" }}
       {...props}
     >
       <g fill="none">

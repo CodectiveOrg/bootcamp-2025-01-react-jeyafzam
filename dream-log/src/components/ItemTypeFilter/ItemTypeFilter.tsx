@@ -7,4 +7,5 @@ const ItemTypeFilter = () => {
     </select>
   );
 };
+
 export default ItemTypeFilter;

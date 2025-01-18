@@ -1,36 +1,39 @@
-.footer{
-    .button{
-        position: fixed;
-        inset-block-end: 2rem;
-        inset-inline-end: max(1rem,(100% - 45rem)/2);
+.footer {
+  .button {
+    position: fixed;
+    inset-block-end: 2rem;
+    inset-inline-end: max(1rem, (100% - 45rem) / 2);
+  }
+
+  dialog {
+    inline-size: 30rem;
+
+    margin: auto;
+    padding: 1rem 2rem;
+
+    border: none;
+    border-radius: 1rem;
+
+    &::backdrop {
+      background-color: var(--color-backdrop);
+      backdrop-filter: blur(2px);
     }
-    dialog{
-        inline-size: 30rem;
 
-        margin: auto;
-        padding: 1rem  2rem;
+    .content {
+      .title {
+        margin-block-end: 1.5rem;
+        font-size: 1.5rem;
+        font-weight: 500;
 
-        border: none;
-        border-radius: 1rem;
+        text-align: center;
+      }
 
-        &::backdrop{
-            background-color: var(--color-backdrop);
-            backdrop-filter: blur(2px);
-        }
-        .content{
-            .title{
-                margin-block-end: 1.5rem;
-                font-size: 1.5rem;
-                font-weight: 500;
+      .actions {
+        display: flex;
+        justify-content: space-between;
 
-                text-align: center;
-            }
-            .actions{
-                display: flex;
-                justify-content: space-between;
-
-                margin-block-start: 8rem;
-            }
-        }
+        margin-block-start: 8rem;
+      }
     }
+  }
 }

@@ -5,12 +5,15 @@ import Button from "../../components/Button/Button.tsx";
 import MingcuteSearchLine from "../../icons/MingcuteSearchLine";
 import SolarCloudyMoonLinear from "../../icons/SolarCloudyMoonLinear.tsx";
 
-import styles from "./Toolbar..module.css"
+import styles from "./Toolbar..module.css";
 
 const Toolbar = () => {
   return (
     <div className={styles.Toolbar}>
-      <Input  placeholder="Search Note..." suffixIcon={<MingcuteSearchLine/>}/>
+      <Input
+        placeholder="Search Dream..."
+        suffixIcon={<MingcuteSearchLine />}
+      />
       <ItemTypeFilter />
       <Button sameWidthHeight className={styles.theme}>
         <SolarCloudyMoonLinear />
@@ -18,4 +21,5 @@ const Toolbar = () => {
     </div>
   );
 };
+
 export default Toolbar;
