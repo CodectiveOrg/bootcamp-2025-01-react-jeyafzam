@@ -1,9 +1,13 @@
 :root {
   --color-surface: hsl(0, 0%, 97%);
   --color-text: hsl(0, 0%, 15%);
+  --color-fade: hsl(0, 0%, 80%);
+
    --color-primary-text: hsl(0, 0%, 97%);
   --color-primary:hsl(332, 80%, 52%);
   --color-primary-light:hsla(320, 81%, 59%, 0.918);
+
+  --color-danger:hsl(0, 100%, 45%);
 }
 
 *,
@@ -17,6 +21,8 @@
 
 html {
   font-family: "Kanit", system-ui;
+  accent-color: var(--color-primary);
+  caret-color: var(--color-primary)
 }
 
 input,
