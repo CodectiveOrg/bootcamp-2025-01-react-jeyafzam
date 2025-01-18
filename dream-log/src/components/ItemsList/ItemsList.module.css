@@ -1,0 +1,74 @@
+.items {
+  display: grid;
+  gap: 1rem;
+
+  inline-size: min(32.5rem, 100%);
+
+  margin-inline: auto;
+  padding-block: 1rem;
+
+  > li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+    padding-block-end: 1rem;
+
+    label {
+      display: flex;
+      gap: 1rem;
+
+      input {
+        inline-size: 1.75rem;
+      }
+
+      .title {
+        font-size: 1.25rem;
+        font-weight: 500;
+      }
+    }
+
+    .actions {
+      opacity: 0;
+
+      display: flex;
+      gap: 0.5rem;
+
+      button {
+        background-color: transparent;
+        color: var(--color-fade);
+
+        display: grid;
+        place-content: center;
+
+        border: none;
+
+        font-size: 1.125rem;
+
+        cursor: pointer;
+
+        &.edit {
+          &:hover {
+            color: var(--color-primary-light);
+          }
+        }
+
+        &.delete {
+          &:hover {
+            color: var(--color-danger);
+          }
+        }
+      }
+    }
+
+    &:hover {
+      .actions {
+        opacity: 1;
+      }
+    }
+
+    &:not(:last-child) {
+      border-block-end: 1px solid var(--color-primary-light);
+    }
+  }
+}
